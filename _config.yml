@@ -17,13 +17,13 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # Social Integration
 # -----------------------------------------------------------------------------
 scholar_userid: UcT4CXoAAAAJ
-github_username: otiliastr
+github_username: chrisnielsen
 linkedin_username: otiliastr
 facebook_username: otilia.stretcu
 twitter_username: otilia_stretcu
 contact_note: Feel free to drop me a line via e-mail.
 
-
+repository: chrisnielsen/chrisnielsen.github.io
 #google_analytics: UA-54519238-1
 
 # -----------------------------------------------------------------------------
