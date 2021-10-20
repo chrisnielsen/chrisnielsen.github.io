@@ -1,6 +1,6 @@
-# Otilia Stretcu's personal webpage
+# Chris Nielsen's personal webpage
 
-This is the personal website of Otilia Stretcu, which can be visualized at [https://otiliastr.github.io/](https://otiliastr.github.io/).
+This is the personal website of Chris Nielsen, which can be visualized at [https://chrisnielsen.github.io/](https://chrisnielsen.github.io/).
 
 ## How to use this template for your website
 
