@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /
-title: About
-nav: About
+title: about
+nav: about
 
 address: <a href="https://www.google.com/maps/place/University+of+Calgary/@51.0775908,-114.140695,15z/data=!4m5!3m4!1s0x0:0x36aff4a9e3c803fb!8m2!3d51.0775908!4d-114.140695" class="page-description" target="_blank">University of Calgary, Alberta, Canada</a>
 ---

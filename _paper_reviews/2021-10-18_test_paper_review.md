@@ -21,13 +21,13 @@ Introduction
 
 We can define expectation as follows:
 
-$E(X) := \sum_x xP(X=x)$  
+$$E(X) := \sum_x xP(X=x)$$  
 
-whereas if $X$ is continuous its expectation is given by    
+whereas if $$X$$ is continuous its expectation is given by    
 
 $$E(X) := \int_x x \ f(x) \ dx$$
 
-where $$f(x)$$ is $X$'s density function. 
+where $$f(x)$$ is $$X$$'s density function. 
 
 
 
