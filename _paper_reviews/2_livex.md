@@ -2,7 +2,16 @@
 layout: page
 title: LiveX Learning Platform
 description: Educational platform, providing interactive and cost-efficient educational science experiments by using IQubes, off-the-shelf devices and the cloud.
-img: /assets/img/livex.jpg
+date: 2020-01-04
+permalink: /paper_reviews/2020-01-04_livex/
+tags:
+  - mathematics
+  - measure theory
+  - probability
+  - statistics
+  - tutorial
+  - measureable function
+  - random variable
 ---
 
 <br />
