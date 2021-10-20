@@ -22,7 +22,7 @@
       <div class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
-            {% if author.last contains site.scholar.last_name %}
+            {% if author.last contains site.scholar.last_name and author.first contains site.scholar.first_name %}
               <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
             {% else %}
               {% if site.data.coauthors[author.last] %}
@@ -33,7 +33,7 @@
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last contains site.scholar.last_name %}
+              {% if author.last contains site.scholar.last_name and author.first contains site.scholar.first_name %}
                 <nobr><em>{{author.first}} {{author.last}}</em>,</nobr>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
@@ -44,7 +44,7 @@
               {% endif %}
             {% else %}
               and
-              {% if author.last == site.scholar.last_name %}
+              {% if author.last == site.scholar.last_name and author.first contains site.scholar.first_name  %}
                 <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
