@@ -76,7 +76,7 @@ nav: writing
 
 
 
-<br/><br/>
+<br/>
 
 
 <a name="tutorials-statistics"></a>
