@@ -63,9 +63,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  paper_reviews:
-    output: true
-    permalink: /paper_reviews/:path/
 
 news_limit: 10
 
