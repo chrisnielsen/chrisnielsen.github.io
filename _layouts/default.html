@@ -20,7 +20,7 @@
   <!-- Header -->
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
-      {% if page.title != "about" %}
+      {% if page.title != "About" %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">Chris</span> Nielsen</a>
       {% else %}
         <div class="row ml-1 ml-sm-0">
@@ -39,10 +39,10 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item {% if page.title == "about" %}navbar-active font-weight-bold{% endif %}">
+          <li class="nav-item {% if page.title == "About" %}navbar-active font-weight-bold{% endif %}">
             <a class="nav-link" href="{{ site.baseurl | prepend: site.url }}/">
-              about
-              {% if page.title == "about" %}
+              About
+              {% if page.title == "About" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>

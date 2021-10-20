@@ -2,7 +2,7 @@
 layout: page
 permalink: /writing/
 title: Writing
-nav: writing
+nav: Writing
 
 ---
 

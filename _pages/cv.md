@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /cv/
-title: curriculum vitae
-nav: cv
+title: Curriculum Vitae
+nav: CV
 ---
 
 <!-- Place PDF download link at the top right. -->

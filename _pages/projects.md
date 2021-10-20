@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-nav: projects
+title: Projects
+nav: Projects
 permalink: /projects/
 description: a reference to some of my projects
 ---
