@@ -85,7 +85,7 @@
 - title: Honors and Awards
   type: table
   contents:
-  - year: Scholarships
+  - year: Scholarship
     items:
     - 'Alberta Graduate Student Scholarship (2018)'
     - 'Alexander Rutherford Scholarship (2015)'
@@ -113,21 +113,21 @@
 - title: Leadership and Volunteering Activities
   type: table-no-bullets
   contents:
+  - title: '<b>Pianist for the Danish Lutheran Church in Calgary</b>'
   - year: 2010 - now
-    description: 'Pianist for the Danish Lutheran Church in Calgary'
+  - title: '<b>Project Team Lead During the Tikkun Olam Makers Make-a-thon</b>'
   - year: 2017
     description:
-      - 'Project Team Lead During the Tikkun Olam Makers Make-a-thon'
-      - '- Developed an educational software tool tailored to an autistic individual’s audiovisual needs when searching the Internet for schoolwork'
+    - Developed an educational software tool tailored to an autistic individual’s audiovisual needs when searching the Internet for schoolwork
 
 
 - title: Computer Skills
   type: list
   contents:
-  - '○ Programming languages: C, C++, Python, Matlab.'
-  - '○ Data Structures and Algorithms: Familiarity with concepts used in algorithmic competitions and machine learning research.'
-  - '○ Frameworks: Tensorflow, NumPy, SciPy, Pandas, OpenCV, OpenGL.'
-  - '○ Cloud Services: AWS.'
+  - '○ Programming languages: C, C++, Python, Matlab'
+  - '○ Data Structures and Algorithms: experience with developing models for large-scale production systems'
+  - '○ Frameworks: Tensorflow, NumPy, SciPy, Pandas, OpenCV, OpenGL'
+  - '○ Cloud Services: AWS'
 
 
 
