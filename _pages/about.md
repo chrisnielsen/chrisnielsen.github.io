@@ -4,17 +4,16 @@ permalink: /
 title: about
 nav: about
 
-<!--description: <a href="https://ai.google/" target="_blank">Google AI</a> -->
-address: <a href="https://www.google.com/maps/place/Googleplex/@37.4220656,-122.0862837,17z/data=!3m1!4b1!4m5!3m4!1s0x808fba02425dad8f:0x6c296c66619367e0!8m2!3d37.4220656!4d-122.0840897" class="page-description" target="_blank">Googleplex, Mountain View, California, USA </a>
+address: <a href="https://www.google.com/maps/place/University+of+Calgary/@51.0775908,-114.140695,15z/data=!4m5!3m4!1s0x0:0x36aff4a9e3c803fb!8m2!3d51.0775908!4d-114.140695" class="page-description" target="_blank">University of Calgary, Alberta, Canada</a>
 ---
 
 <div class="col p-0 pt-4 pb-4">
-  <h1 class="pb-3 title text-left font-weight-bold">Otilia Stretcu</h1>
-  <h6 class="m-0 mb-2" style="font-size: 0.83em;">{{ page.description }}</h6>
+  <h1 class="pb-3 title text-left font-weight-bold">Chris Nielsen</h1>
   {% if page.address %}
       <h6 class="m-0 mb-2" style="font-size: 0.83em;">{{ page.address }}</h6>
   {% endif %}
 </div>
+
 
 <!-- Introduction -->
 
@@ -25,26 +24,21 @@ address: <a href="https://www.google.com/maps/place/Googleplex/@37.4220656,-122.
         </div>
 
         <p>
-            I am a Research Scientist at <a href="https://ai.google/" target="_blank">Google AI</a> in Mountain View, California, working on machine learning research.
+            I am currently pursuing a PhD in Biomedical Engineering, Medical Imaging specialization, at the University of Calgary under the supervision of Dr. Nils Forkert. 
         </p>
         
         <p>
-            Previously, I was a PhD student in the <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank">Barnabàs Pòczos</a>.
-            My PhD research focused on developing algorithms for machine learning, mainly focused on semi-supervised learning, curriculum learning, multitask learning, and graph-based problems.
-            I am also passionate about applying machine learning methods in neuroscience, in order to study how the brain understands language and controls speech.
-            Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
+            I received my MSc in Electrical Engineering in 2019 and a BSc in Applied Mathematics in 2016 from the University of Calgary. My MSc thesis focused on the challenge of training machine learning models for medical image classification where there is a limited volume of data. From 2017 until joining the MIPLAB in 2021, I worked as an industrial data scientist at Getty Images, applying machine learning to improve image search. 
         </p>
     </div>
 </div>
 
 <div class="col text-justify p-0">
     <p>
-        Before I joined CMU, I graduated with an <a href="https://www.cst.cam.ac.uk/admissions/acs" target="_blank">M.Phil. in Advanced Computer Science</a>
-        from the <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>, UK.
-        In my Master's thesis I used Machine Learning methods to detect and align chromosomes in microscope images,
-        advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank">Pietro Lió</a>.
+       My research interests involve developing machine learning tools for ophthalmology. I aspire to become a physician-scientist specializing in ophthalmology and balancing direct surgical intervention with research and policy at the intersection of artificial intelligence and medicine.
     </p>
 </div>
+
 
 <!-- News -->
 <div class="news mt-3 p-0">

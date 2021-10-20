@@ -2,8 +2,8 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Otilia Stretcu
-email: otiliastr@gmail.com
+name: Chris Nielsen
+email: csnielse@ucalgary.ca
 
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -16,15 +16,14 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: UcT4CXoAAAAJ
+scholar_userid: KPh-H3kAAAAJ
 github_username: chrisnielsen
-linkedin_username: otiliastr
-facebook_username: otilia.stretcu
-twitter_username: otilia_stretcu
-contact_note: Feel free to drop me a line via e-mail.
+linkedin_username: christopher-nielsen-535941123
+contact_note: Feel free to contact me through e-mail.
+
 
 repository: chrisnielsen/chrisnielsen.github.io
-#google_analytics: UA-54519238-1
+#google_analytics: 
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -84,7 +83,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Stretcu
+  last_name: Nielsen
   style: apa
   locale: en
   sort_by: year
