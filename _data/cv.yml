@@ -53,7 +53,7 @@
     description:
       - 'Developed stereoscopic tracking software for analysis and diagnosis of sleep apnea'      
   - title: 'Junior Research Assistant at the University of Calgary'
-    year: Summer 2010 and 2011
+    year: Summer 2011
     location: Canada
     description:
       - 'Contributed to project involving the minimization of required temporal data for GPS localization'   
@@ -113,21 +113,22 @@
 - title: Leadership and Volunteering Activities
   type: table-no-bullets
   contents:
-  - year: 2010 - now
   - title: '<b>Pianist for the Danish Lutheran Church in Calgary</b>'
-  - year: 2017
+    year: 2010 - now
   - title: '<b>Project Team Lead During the Tikkun Olam Makers Make-a-thon</b>'
+    year: 2017
     description:
     - Developed an educational software tool tailored to an autistic individual’s audiovisual needs when searching the Internet for schoolwork
+
 
 
 - title: Computer Skills
   type: list
   contents:
   - '○ Programming languages: C, C++, Python, Matlab'
-  - '○ Data Structures and Algorithms: experience with developing models for large-scale production systems'
+  - '○ Data structures and algorithms: experience with developing models for large-scale production systems'
   - '○ Frameworks: Tensorflow, NumPy, SciPy, Pandas, OpenCV, OpenGL'
-  - '○ Cloud Services: AWS'
+  - '○ Cloud services: AWS'
 
 
 
