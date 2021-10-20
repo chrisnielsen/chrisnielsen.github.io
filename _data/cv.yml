@@ -20,8 +20,8 @@
     location: Canada
     description:
     - 'Supervised by <a href="https://schulich.ucalgary.ca/contacts/michal-okoniewski" target="_blank"><b>Dr. Michal Okoniewski</b></a>'
-    - 'GPA: 4.0 (4.0 scale)'
     - 'Thesis: Improving Image Classification Through Generative Data Augmentation'
+    - 'GPA: 4.0 (4.0 scale)'
   - title: University of Calgary - BSc in Applied Mathematics
     year: 2012 - 2016
     location: Canada
@@ -61,6 +61,27 @@
 
 
 
+
+- title: Teaching Experience
+  type: table
+  contents:
+  - title: '<b>Sessional Instructor</b> for <b>Graduate Statistical Estimation</b>'
+    year: Winter 2020
+    location: Canada
+    description:
+    - Developed learning materials, delivered lectures, and marked all evaluation metrics for graduate level introduction to statistical estimation at the University of Calgary
+  - title: '<b>Teaching Assistant</b> for <b>Graduate Statistical Estimation</b>'
+    year: Winter 2019
+    location: Canada
+  - title: '<b>Teaching Assistant</b> for <b>Undergraduate Probability and Statistics</b>'
+    year: Fall 2018
+    location: Canada
+  - title: '<b>Teaching Assistant</b> for <b>Undergraduate Computer Vision</b>'
+    year: Fall 2018
+    location: Canada
+
+
+
 - title: Honors and Awards
   type: table
   contents:
@@ -86,6 +107,35 @@
           <li> Google CS Connect Runner-up (2010) </li>
           <li> Fourth Place Grand Award in Engineering: Electrical and Mechanical (2010) </li>
         </ul>'
+        
+
+
+- title: Leadership and Volunteering Activities
+  type: table-no-bullets
+  contents:
+  - year: 2010 - now
+    description: 'Pianist for the Danish Lutheran Church in Calgary'
+  - year: 2017
+    description:
+      - 'Project Team Lead During the Tikkun Olam Makers Make-a-thon'
+      - '- Developed an educational software tool tailored to an autistic individual’s audiovisual needs when searching the Internet for schoolwork'
+
+
+- title: Computer Skills
+  type: list
+  contents:
+  - '○ Programming languages: C, C++, Python, Matlab.'
+  - '○ Data Structures and Algorithms: Familiarity with concepts used in algorithmic competitions and machine learning research.'
+  - '○ Frameworks: Tensorflow, NumPy, SciPy, Pandas, OpenCV, OpenGL.'
+  - '○ Cloud Services: AWS.'
+
+
+
+- title: Other Interests
+  type: list
+  contents:
+  - 'Sports: CrossFit, hiking, skiing, soccer, hockey'
+  - 'Hobbies: music, reading, cooking, movies'
 
 
 
