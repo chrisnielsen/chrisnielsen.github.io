@@ -3,7 +3,7 @@ layout: page
 title: Projects
 nav: Projects
 permalink: /projects/
-description: a reference to some of my projects
+description: A reference for some of my projects
 ---
 
 <div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
