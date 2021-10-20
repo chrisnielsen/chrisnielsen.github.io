@@ -6,7 +6,9 @@
   booktitle={Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition (IPCV)},
   pages={1},
   year={2012},
-  organization={The Steering Committee of The World Congress in Computer Science, Computer~…}
+  pdf = {2012_ipcv/2012_ipcv.pdf},
+  organization={The Steering Committee of The World Congress in Computer Science, Computer~…},
+  abstract = {{Wireless signaling has traditionally been used for localization of a handset device. However, multipath propagation distortion coupled with the modest bandwidth of the wireless signal results in insufficient spatial resolution for general applications. 3D computer vision (CV) technology has been shown to overcome these deficiencies but the apparatus and computation required is not commensurate with the limited capabilities of the handset device. In this paper a processing algorithm is proposed that combines CV and wireless observables. The CV processing consists of a novel 6DOF ego-motion algorithm that is partitioned into two concatenated 3DOF estimations. Wireless pseudo-range measurements are interjected for drift correction using particle filter processing. The method has been verified experimentally to provide negligible deviations of the egomotion trajectory estimation quantified as a standard deviation of several millimeters per meter of trajectory length.}} 
 }
 
 @article{nielsen2016assessment,
@@ -17,24 +19,30 @@
   number={10},
   pages={1570},
   year={2016},
-  publisher={Multidisciplinary Digital Publishing Institute}
+  pdf = {2016_sensors/2016_sensors.pdf},
+  publisher={Multidisciplinary Digital Publishing Institute},
+  abstract = {{Currently there is almost ubiquitous availability of wireless signaling for data communications within commercial building complexes resulting in receiver signal strength (RSS) observables that are typically sufficient for generating viable location estimates of mobile wireless devices. However, while RSS observables are generally plentiful, achieving an accurate estimation of location is difficult due to several factors affecting the electromagnetic coupling between the mobile antenna and the building access points that are not modeled and hence contribute to the overall estimation uncertainty. Such uncertainty is typically mitigated with a moderate redundancy of RSS sensor observations in combination with other constraints imposed on the mobile trajectory. In this paper, the Fisher Information (FI) of a set of RSS sensor observations in the context of variables related to the mobile location is developed. This provides a practical method of determining the potential location accuracy for the given set of wireless signals available. Furthermore, the information value of individual RSS measurements can be quantified and the RSS observables weighted accordingly in estimation combining algorithms. The practical utility of using FI in this context was demonstrated experimentally with an extensive set of RSS measurements recorded in an office complex. The resulting deviation of the mobile location estimation based on application of weighted likelihood processing to the experimental RSS data was shown to agree closely with the Cramer Rao bound determined from the FI analysis.}}
 }
 
-@misc{nielsen2018method,
+@inproceedings{nielsen2018method,
   title={Method of tracking one or more mobile objects in a site and a system employing same},
-  author={Nielsen, Jorgen S and Nielsen, Christopher S and He, Zhe},
+  author={Nielsen, John and Nielsen, Christopher and He, Zhe},
   year={2018},
   month=jan # "~25",
   publisher={Google Patents},
-  booktitle={US Patent App. 15/656,428}
+  pdf = {2018_patent/2018_patent.pdf},
+  booktitle={US Patent App. 15/656,428},
+  abstract = {{A mobile object tracking system has one or more imaging devices for capturing images of a site, one or more reference wireless devices in wireless communication with one or more mobile wireless devices (MWDs) via one or more wireless signals, and one or more received signal strength models (RSSMs) of the site for the wireless signals. Each MWD is associated with a mobile object and movable therewith. The system tracks the mobile objects by combining the captured images, the received signal strength (RSS) observables of the wireless signals, and the RSSMs. The system may calibrate the RSSMs at an initial stage and during mobile object tracking.}}
 }
 
 @inproceedings{nielsen2019gan,
   title={GAN Data Augmentation Through Active Learning Inspired Sample Acquisition.},
-  author={Nielsen, Christopher and Okoniewski, Michal M},
+  author={Nielsen, Christopher and Okoniewski, Michal},
   booktitle={CVPR Workshops},
   pages={109--112},
-  year={2019}
+  year={2019},
+  pdf = {2019_cvpr/2019_cvpr.pdf},
+  abstract = {{Data augmentation is frequently used to increase the effective training set size when training deep neural networks for supervised learning tasks. This technique is particularly beneficial when the size of the training set is small. Recently, data augmentation using GAN generated samples has been shown to provide performance improvement for supervised learning tasks. In this paper we propose a method of GAN data augmentation for image classification that uses the prediction uncertainty of the classifier network to determine the optimal GAN samples to augment the training set. We apply the acquisition function framework originally developed for active learning to evaluate the sample uncertainty. Preliminary experimental results are provided to demonstrate the benefit of this technique.}}
 }
 
 @inproceedings{nielsen2016fusion,
@@ -43,12 +51,17 @@
   booktitle={2016 International Conference on Indoor Positioning and Indoor Navigation (IPIN)},
   pages={1--7},
   year={2016},
-  organization={IEEE}
+  pdf = {2016_ipin/2016_ipin.pdf},
+  organization={IEEE},
+  abstract = {{In this paper the fusion of data from a network of security cameras and RSS fingerprint observations are combined to facilitate the simultaneous tracking of multiple persons inside indoor environments. An objective of the developed algorithm is to utilize existing building infrastructure namely the networks of security cameras and WiFi access points. Additionally minimal initial and maintenance calibration is required as crowdsourcing of the fingerprint mapping and self-calibrating camera processing is an integral component of the algorithm. Experimental results are given that demonstrate the accuracy, robustness and adaptability of the developed tracking algorithm.}}
 }
 
-@mastersthesis{nielsen2019improving,
-  title={MSc Thesis: Improving image classification through generative data augmentation},
-  author={Nielsen, Christopher Stephen},
+@article{nielsen2019improving,
+  title={Improving image classification through generative data augmentation},
+  author={Nielsen, Christopher},
   year={2019},
-  school={Schulich School of Engineering}
+  pdf = {2019_thesis/2019_thesis.pdf},
+  journal = {MSc Thesis at the Univeristy of Calgary},
+  school={Schulich School of Engineering},
+  abstract = {{As the industrial adoption of machine learning systems continues to grow, there is incredible potential to use this technology to revolutionize how medical diagnostic imaging is performed. The ability to accurately classify the information contained within a medical image is of critical importance for clinical implementation. Successful application of machine learning classification algorithms has traditionally relied on the availability of copious amounts of labelled training data. Unfortunately, medical datasets are typically small due to privacy constraints and the large cost associated with annotating the data. To ameliorate this limitation, a training scheme is developed in this thesis which can operate on small-scale datasets by using a generative adversarial network to augment the dataset with synthetic images. Through quantifying the uncertainty in the classification network, training samples are selected to maximize the performance of the classifier while minimizing the amount of required data. Furthermore, privacy constraints are preserved as the images sampled from the generative adversarial network are inherently anonymized. The experimental results demonstrate the efficacy in this approach and viability for application in the medical domain.}}
 }

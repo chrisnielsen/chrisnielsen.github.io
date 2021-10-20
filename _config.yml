@@ -86,6 +86,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
   last_name: Nielsen
+  first_name: ["Christopher"
   style: apa
   locale: en
   sort_by: year
