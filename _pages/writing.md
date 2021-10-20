@@ -25,7 +25,7 @@ nav: writing
 <a name="paper-reviews"></a>
 
 ---
-### **Paper Reviews**
+#### **Paper Reviews**
 ---
 
 
@@ -43,7 +43,7 @@ nav: writing
 <a name="book-reviews"></a>
 
 ---
-### **Book Reviews**
+#### **Book Reviews**
 ---
 
 * [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
@@ -58,12 +58,12 @@ nav: writing
 <a name="tutorials"></a>
 
 ---
-### Tutorials
+#### **Tutorials**
 ---
 
 ---
 <a name="tutorials-linear-algebra"></a>
-#### **Linear Algebra**
+###### **Linear Algebra**
 ---
 
 
