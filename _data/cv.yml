@@ -64,9 +64,6 @@
 - title: Honors and Awards
   type: table
   contents:
-  - year: Fellowships
-    items:
-    - '<a href="https://www.cs.cmu.edu/cmlh-cfp" target="_blank"><b> Center for Machine Learning and Health (CMLH) Fellowship in Digital Health</b></a> (2018)'
   - year: Scholarships
     items:
     - '<a href="https://www.gatescambridge.org/" target="_blank"><b>Gates Cambridge Scholarship</b></a> (2014)'
