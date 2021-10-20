@@ -2,7 +2,7 @@
   type: map
   contents:
   - name: Full Name
-    value: Chris Nielsen
+    value: Christopher Stephen Nielsen
   - name: Contact
     value: csnielse [at] ucalgary [dot] ca
 
@@ -59,3 +59,28 @@
       - 'Contributed to project involving the minimization of required temporal data for GPS localization'   
 
 
+- title: Honors and Awards
+  type: table
+  contents:
+  - year: Scholarships
+    items:
+    - '<Alberta Graduate Student Scholarship (2018)'
+    - 'Alexander Rutherford Scholarship (2015)'
+    - 'Jason Lang Scholarship (2014)'
+    - 'University of Calgary Undergraduate Merit Award (2014)'
+    - 'President's Admission Scholarship (2012, 2013)'
+  - year: Awards
+    items:
+    - '<b>Intel International Science and Engineering Fair</b>:
+        <ul>
+          <li> United Technologies Corporation Award (2012) </li>
+          <li> K. Soumyanath Memorial Award (2012) </li>
+          <li> INCOSE Honourable Mention (2012) </li>
+          <li> CERN Travel Award (2012) </li>
+          <li> First Place Grand Award in Engineering: Electrical and Mechanical (2012) </li>
+          <li> SPIE Second Place Award (2011) </li>
+          <li> MIT Lincoln Laboratory Minor Planet Namesake (2011) </li>
+          <li> First Place Grand Award in Engineering: Electrical and Mechanical (2011) </li>
+          <li> Google CS Connect Runner-up (2010) </li>
+          <li> Fourth Place Grand Award in Engineering: Electrical and Mechanical (2010) </li>
+        </ul>'
