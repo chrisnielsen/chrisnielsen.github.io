@@ -28,7 +28,7 @@ address: <a href="https://www.google.com/maps/place/University+of+Calgary/@51.07
         </p>
         
         <p>
-            I received my MSc in Electrical Engineering in 2019 and a BSc in Applied Mathematics in 2016 from the University of Calgary. My MSc thesis focused on the challenge of training machine learning models for medical image classification where there is a limited volume of data. From 2017 until joining the MIPLAB in 2021, I worked as an industrial data scientist at Getty Images, applying machine learning to improve image search. My research interests involve developing machine learning tools for ophthalmology. I aspire to become a physician-scientist specializing in ophthalmology and balancing direct surgical intervention with research and policy at the intersection of artificial intelligence and medicine.
+            I graduated with an MSc in Electrical Engineering in 2019 and a BSc in Applied Mathematics in 2016, both from the University of Calgary. My MSc thesis focused on the challenge of training machine learning models for medical image classification where there is a limited volume of data. From 2017 until joining the MIPLAB in 2021, I worked as an industrial data scientist at Getty Images, applying machine learning to improve image search. My research interests involve developing machine learning tools for ophthalmology. I aspire to become a physician-scientist specializing in ophthalmology and balancing direct surgical intervention with research and policy at the intersection of artificial intelligence and medicine.
         </p>
     </div>
 </div>
