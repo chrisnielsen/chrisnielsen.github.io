@@ -66,6 +66,9 @@ collections:
   paper_reviews:
     output: true
     permalink: /paper_reviews/:path/
+  music:
+    output: true
+    permalink: /music/:path/
 
 news_limit: 10
 
