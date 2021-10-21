@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Math Questions
-permalink: /paper_review/math_test2/
+permalink: /paper_reviews/math_test2/
 ---
 <br />
 ## Open Questions
