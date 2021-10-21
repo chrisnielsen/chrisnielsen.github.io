@@ -31,12 +31,6 @@ nav: Writing
 
 
 * [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-
-
 
 
 
@@ -45,10 +39,7 @@ nav: Writing
 
 ---
 #### **Book Reviews**
----
 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
 
 
 
@@ -68,14 +59,6 @@ nav: Writing
 
 
 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-
-
-
 <br/>
 
 
@@ -83,11 +66,5 @@ nav: Writing
 **Statistics**
 
 
-
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/2021-10-18_test_paper_review) 
 
 <br/><br/>

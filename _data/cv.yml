@@ -37,7 +37,7 @@
     year: 2017 - 2021
     location: Canada
     description:
-      - 'Developed deep neural network architectures for image composition analysis and personalized search recommendation'
+      - 'Developed machine learning architectures for image analysis and search ranking'
       - 'Designed statistical models for processing large scale customer data'
       - 'Contributed to the implementation of an AWS based big data pipeline'
   - title: 'Algorithm Engineer at Appropolis'
@@ -65,20 +65,26 @@
 - title: Teaching Experience
   type: table
   contents:
-  - title: '<b>Sessional Instructor</b> for <b>Graduate Statistical Estimation</b>'
+  - title: '<b>Sessional Instructor</b> for <b>ENEL 625 - Estimation Theory</b>'
     year: Winter 2020
     location: Canada
     description:
     - Developed learning materials, delivered lectures, and marked all evaluation metrics for graduate level introduction to statistical estimation at the University of Calgary
-  - title: '<b>Teaching Assistant</b> for <b>Graduate Statistical Estimation</b>'
+  - title: '<b>Teaching Assistant</b> for <b>ENEL 625 - Estimation Theory</b>'
     year: Winter 2019
     location: Canada
-  - title: '<b>Teaching Assistant</b> for <b>Undergraduate Probability and Statistics</b>'
+    description:
+    - Marked assignments and provided support to students
+  - title: '<b>Teaching Assistant</b> for <b>ENEL 419 - Probability and Random Variables</b>'
     year: Fall 2018
     location: Canada
-  - title: '<b>Teaching Assistant</b> for <b>Undergraduate Computer Vision</b>'
+    description:
+    - Marked assignments and provided support to students
+  - title: '<b>Teaching Assistant</b> for <b>ENEL 503 - Computer Vision</b>'
     year: Fall 2018
     location: Canada
+    description:
+    - Marked and designed assignments, provided support to students, and delivered lectures for the last two weeks of classes
 
 
 
@@ -87,6 +93,7 @@
   contents:
   - year: Scholarships
     items:
+    - 'Biomedical Engineering Graduate Program Entrance Prize (2021)'
     - 'Alberta Graduate Student Scholarship (2018)'
     - 'Alexander Rutherford Scholarship (2015)'
     - 'Jason Lang Scholarship (2014)'
@@ -115,6 +122,8 @@
   contents:
   - title: '<b>Pianist for the Danish Lutheran Church in Calgary</b>'
     year: 2010 - now
+        description:
+    - Provide music accompaniment for weekly Sunday services as well as community events such as baptisms, weddings, and funerals
   - title: '<b>Project Team Lead - Tikkun Olam Makers Make-a-thon</b>'
     year: 2017
     description:
