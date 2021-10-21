@@ -4,6 +4,8 @@ title: Math Questions
 permalink: /paper_reviews/math-test2/
 ---
 <br />
+{: style="text-align: justify"}
+
 {% raw %}
 <br />
 ## Open Questions
@@ -27,7 +29,7 @@ $$\mathop {\max }\limits_x \mathop {\min }\limits_y f\left( {x,y} \right) = \mat
 
 
 <br />
-##### What can we do to fix this
+###### What can we do to fix this
 ---
 
 Therefore, we can interpret this expression as:
@@ -51,7 +53,7 @@ This is a test.
 
 
 <br />
-##### Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ 
+###### Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ 
 ---
 
 
