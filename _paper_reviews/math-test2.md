@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Math Questions
 permalink: /paper_reviews/math-test2/
 ---
