@@ -19,9 +19,9 @@ permalink: /paper_reviews/math-test2/
 <br/>
 
 {% raw %}
-<br />
-
 <a name="open-questions"></a>
+
+<br />
 
 ## Open Questions
 ---
@@ -29,9 +29,9 @@ permalink: /paper_reviews/math-test2/
 This section contains discussion around open questions I have
 
 
-<br />
-
 <a name="interpretation-of-min/max-operations"></a>
+
+<br />
 
 #### Interpretation of min/max operations
 ---
@@ -48,9 +48,9 @@ $$\mathop {\max }\limits_x \mathop {\min }\limits_y f\left( {x,y} \right) = \mat
 
 
 
-<br />
-
 <a name="what-can-we-do-to-fix-this"></a>
+
+<br />
 
 ##### What can we do to fix this
 ---
@@ -86,9 +86,9 @@ $$\begin{align}
 
 
 
-<br />
-
 <a name="here-is-a-proof-that-for-any-function$$f\left(-{x,y}-\right)$$we-have-$$\mathop-{\max-}\limits_y-\mathop-{\min-}\limits_x-f\left(-{x,y}-\right)-\le-\mathop-{\min-}\limits_x-\mathop-{\max-}\limits_y-f\left(-{x,y}-\right)$$-"></a>
+
+<br />
 
 ##### Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ 
 ---
@@ -104,9 +104,9 @@ Now let use examine the situation where the min and max operations are switched 
  **An open question remains regarding when the order of min and max can be exchanged.**
 
 
-<br />
-
 <a name="useful-general-knowledge"></a>
+
+<br />
 
 ## Useful General Knowledge
 ---
@@ -115,9 +115,9 @@ This section contains general knowledge and tricks about different things that a
 
 
 
-<br />
-
 <a name="use-cholesky-to-sample-from-gaussian"></a>
+
+<br />
 
 #### Use Cholesky to Sample from Gaussian
 ---
