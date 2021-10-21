@@ -47,6 +47,17 @@ This is a test.
 This is a test.
 
 
+$$\begin{align}
+  & \log p\left( x;\theta  \right)=\log \int{p\left( x,z;\theta  \right)\,}dz \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=\sqrt{{{b}^{2}}-4ac} \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=\log \int{p\left( x,z;\theta  \right)\,}dz \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=\log \int{p\left( x,z;\theta  \right)\,}dz \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=\sqrt{{{b}^{2}}-4ac} \\ 
+ & \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=\log \int{p\left( x,z;\theta  \right)\,}dz \\ 
+\end{align}$$ 
+
+
+
 
 
 
