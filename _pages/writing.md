@@ -30,7 +30,7 @@ nav: Writing
 ---
 
 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/math_test2) 
+* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/math-test2) 
 
 
 

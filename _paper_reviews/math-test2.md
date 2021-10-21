@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Math Questions
-permalink: /paper_reviews/math_test2/
+permalink: /paper_reviews/math-test2/
 ---
 <br />
 ## Open Questions
@@ -42,7 +42,7 @@ This section contains general knowledge and tricks about different things that a
 
 There are a number of python functions that can be used to sample from a multivariate Gaussian. One technique is to sample from a standard Gaussian (i.e. zero mean, identity covariance), and then transform the sample such that it resembles being sampled from a Gaussian with mean m and covariance S. This can be achieved as follows (taken from "Gaussian Processes for Machine Learning slide 9")
 
-<figure><center><img src="assets/img/math_test2/image1.png" alt="Figure 1. Cholesky Algorithm" width="500"/> <figcaption> <em>Figure 1. Cholesky Algorithm </em> </figcaption> </center></figure>
+<figure><center><img src="assets/img/math-test2/image1.png" alt="Figure 1. Cholesky Algorithm" width="500"/> <figcaption> <em>Figure 1. Cholesky Algorithm </em> </figcaption> </center></figure>
  
 
 
