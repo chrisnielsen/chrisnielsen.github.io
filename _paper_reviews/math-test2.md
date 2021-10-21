@@ -5,12 +5,16 @@ permalink: /paper_reviews/math-test2/
 ---
 <br />
 {% raw %}
+<br />
 ## Open Questions
+---
 
 This section contains discussion around open questions I have
 
 
+<br />
 ### Interpretation of min/max operations
+---
 
 A question I have struggled with that is how to interpret the expression:
 
@@ -41,7 +45,9 @@ This is a test.
 
 
 
+<br />
 #### Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ 
+---
 
 
 Proof
@@ -53,18 +59,24 @@ Now let use examine the situation where the min and max operations are switched 
  **An open question remains regarding when the order of min and max can be exchanged.**
 
 
+<br />
 ## Useful General Knowledge
+---
 
 This section contains general knowledge and tricks about different things that are useful
 
 
 
+<br />
 ### Use Cholesky to Sample from Gaussian
+---
 
 There are a number of python functions that can be used to sample from a multivariate Gaussian. One technique is to sample from a standard Gaussian (i.e. zero mean, identity covariance), and then transform the sample such that it resembles being sampled from a Gaussian with mean m and covariance S. This can be achieved as follows (taken from "Gaussian Processes for Machine Learning slide 9")
 
 <figure><center><img src="/assets/img/math-test2/image1.png" alt="Figure 1. Cholesky Algorithm" width="500"/> <figcaption> <em>Figure 1. Cholesky Algorithm </em> </figcaption> </center></figure>
  
+
+This is the way it needs to be.
 
 
 {% endraw %}
