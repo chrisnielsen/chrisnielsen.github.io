@@ -29,6 +29,18 @@ Therefore, we can interpret this expression as:
 Another way to interpret the min/max operations is to think about finding the saddle point of a function. Finding the saddle point is equivalent to finding the min/max solution for a set of variables.
 
 
+This is a test.
+
+
+
+This is a test.
+
+
+
+
+
+
+
 #### Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ 
 
 
