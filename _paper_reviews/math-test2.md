@@ -4,8 +4,25 @@ title: Math Questions
 permalink: /paper_reviews/math-test2/
 ---
 <br />
+<!-- MarkdownTOC depth=4 -->
+
+
+-  [Open Questions](#open-questions)
+    -  [Interpretation of min/max operations](#interpretation-of-min/max-operations)
+        -  [What can we do to fix this](#what-can-we-do-to-fix-this)
+        -  [Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ ](#here-is-a-proof-that-for-any-function$$f\left(-{x,y}-\right)$$we-have-$$\mathop-{\max-}\limits_y-\mathop-{\min-}\limits_x-f\left(-{x,y}-\right)-\le-\mathop-{\min-}\limits_x-\mathop-{\max-}\limits_y-f\left(-{x,y}-\right)$$-)
+-  [Useful General Knowledge](#useful-general-knowledge)
+    -  [Use Cholesky to Sample from Gaussian](#use-cholesky-to-sample-from-gaussian)
+<!-- /MarkdownTOC -->
+
+
+<br/>
+
 {% raw %}
 <br />
+
+<a name="open-questions"></a>
+
 ## Open Questions
 ---
 
@@ -13,6 +30,9 @@ This section contains discussion around open questions I have
 
 
 <br />
+
+<a name="interpretation-of-min/max-operations"></a>
+
 #### Interpretation of min/max operations
 ---
 
@@ -29,6 +49,9 @@ $$\mathop {\max }\limits_x \mathop {\min }\limits_y f\left( {x,y} \right) = \mat
 
 
 <br />
+
+<a name="what-can-we-do-to-fix-this"></a>
+
 ##### What can we do to fix this
 ---
 
@@ -64,6 +87,9 @@ $$\begin{align}
 
 
 <br />
+
+<a name="here-is-a-proof-that-for-any-function$$f\left(-{x,y}-\right)$$we-have-$$\mathop-{\max-}\limits_y-\mathop-{\min-}\limits_x-f\left(-{x,y}-\right)-\le-\mathop-{\min-}\limits_x-\mathop-{\max-}\limits_y-f\left(-{x,y}-\right)$$-"></a>
+
 ##### Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ 
 ---
 
@@ -79,6 +105,9 @@ Now let use examine the situation where the min and max operations are switched 
 
 
 <br />
+
+<a name="useful-general-knowledge"></a>
+
 ## Useful General Knowledge
 ---
 
@@ -87,6 +116,9 @@ This section contains general knowledge and tricks about different things that a
 
 
 <br />
+
+<a name="use-cholesky-to-sample-from-gaussian"></a>
+
 #### Use Cholesky to Sample from Gaussian
 ---
 
