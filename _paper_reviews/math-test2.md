@@ -18,6 +18,8 @@ This section contains discussion around open questions I have
 #### Interpretation of min/max operations
 ---
 
+The repo containing the code for this post is located [here]( https://github.com/chrisnielsen/chrisnielsen.github.io)
+
 A question I have struggled with that is how to interpret the expression:
 
 $$\mathop {\max }\limits_x \mathop {\min }\limits_y f\left( {x,y} \right)$$
@@ -58,6 +60,7 @@ This is a test.
 
 
 Proof
+
 Suppose that $$\left( {{x^*},{y^*}} \right)$$is the optimal solution to $$\mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$, such that $$\mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right) = f\left( {{x^*},{y^*}} \right)$$. This implies that $$\mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right) = \mathop {\max }\limits_y f\left( {{x^*},y} \right)$$since we can view the inner max operation as being evaluated for a specific x value, and since $${x^*}$$is optimal, we can remove the min operation. 
 
 Now let use examine the situation where the min and max operations are switched such that $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right)$$. Focusing on the inner min operation: since the inner min operation is the minimum over all x values then $$\mathop {\min }\limits_x f\left( {x,y} \right) \le f\left( {{x^*},y} \right)$$.  Since this inequality must hold for all values of y, the inequality is preserved when we take the max operation of y on both sides of the inequality. Therefore, we have that $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\max }\limits_y f\left( {{x^*},y} \right)$$. Now substituting in the expression from above we have:$$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$, 
