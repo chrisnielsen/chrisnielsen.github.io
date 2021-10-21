@@ -13,9 +13,10 @@ This section contains discussion around open questions I have
 ### Interpretation of min/max operations  
 <br />
 A question I have struggled with that is how to interpret the expression:  
-<br />
+
 $$\mathop {\max }\limits_x \mathop {\min }\limits_y f\left( {x,y} \right)$$  
-<br />
+
+
 So far, I think the best way to interpret this expression is the following: consider breaking the expression into two components as follows:  
 <br />
 $$\mathop {\max }\limits_x \mathop {\min }\limits_y f\left( {x,y} \right) = \mathop {\max }\limits_x g\left( x \right)$$ where $$g\left( x \right) = \mathop {\min }\limits_y f\left( {x,y} \right)$$  
@@ -49,7 +50,7 @@ This section contains general knowledge and tricks about different things that a
 There are a number of python functions that can be used to sample from a multivariate Gaussian. One technique is to sample from a standard Gaussian (i.e. zero mean, identity covariance), and then transform the sample such that it resembles being sampled from a Gaussian with mean m and covariance S. This can be achieved as follows (taken from "Gaussian Processes for Machine Learning slide 9")  
 <br />
 <figure><center><img src="/assets/img/math-test2/image1.png" alt="Figure 1. Cholesky Algorithm" width="500"/> <figcaption> <em>Figure 1. Cholesky Algorithm </em> </figcaption> </center></figure>  
-   
+
 <br />
 <br />
 {% endraw %}
