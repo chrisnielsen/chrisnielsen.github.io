@@ -74,17 +74,17 @@
     year: Winter 2019
     location: Canada
     description:
-    - Marked assignments and provided support to students
+    - Marked assignments/exams and provided support to students
   - title: '<b>Teaching Assistant</b> for <b>ENEL 419 - Probability and Random Variables</b>'
     year: Fall 2018
     location: Canada
     description:
-    - Marked assignments and provided support to students
+    - Marked assignments/exams and provided support to students
   - title: '<b>Teaching Assistant</b> for <b>ENEL 503 - Computer Vision</b>'
     year: Fall 2018
     location: Canada
     description:
-    - Marked and designed assignments, provided support to students, and delivered lectures for the last two weeks of classes
+    - Marked and designed assignments/exams, provided support to students, and delivered lectures for the last two weeks of classes
 
 
 
@@ -122,7 +122,7 @@
   contents:
   - title: '<b>Pianist for the Danish Lutheran Church in Calgary</b>'
     year: 2010 - now
-        description:
+    description:
     - Provide music accompaniment for weekly Sunday services as well as community events such as baptisms, weddings, and funerals
   - title: '<b>Project Team Lead - Tikkun Olam Makers Make-a-thon</b>'
     year: 2017
