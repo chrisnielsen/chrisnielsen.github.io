@@ -20,7 +20,7 @@ address: <a href="https://www.google.com/maps/place/University+of+Calgary/@51.07
 <div style="display: flex; flex-wrap: wrap;">
     <div class="text-justify p-0">
         <div class="col-xs-12 col-sm-6 p-0 pt-2 pb-sm-2 pb-4 pl-sm-4 text-center" style="float: right;">
-          <img class="profile-img img-responsive" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+          <img class="profile-img img-responsive" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" width="100">
         </div>
 
         <p>

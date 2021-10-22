@@ -3,7 +3,7 @@ layout: page
 title: Projects
 nav: Projects
 permalink: /projects/
-description: A reference for some of my projects
+description: This page will be populated with my research projects
 ---
 
 
