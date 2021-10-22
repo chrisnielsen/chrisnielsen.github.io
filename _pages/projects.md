@@ -6,6 +6,9 @@ permalink: /projects/
 description: A reference for some of my projects
 ---
 
+
+<br/>
+<br/>
 <h3 class="mt-4">Utility Software</h3>
 
 <div class="card mt-3">
@@ -52,6 +55,9 @@ description: A reference for some of my projects
           </div>
         </div>
 
+
+<br/>
+<br/>
 <h3 class="mt-4">Utility Software - Copy</h3>
 
 <div class="card mt-3">
@@ -98,6 +104,9 @@ description: A reference for some of my projects
           </div>
         </div>
 
+
+<br/>
+<br/>
 <h3 class="mt-4">Utility Software - Copy - Copy</h3>
 
 <div class="card mt-3">
