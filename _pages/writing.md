@@ -6,16 +6,12 @@ nav: Writing
 
 ---
 
-
-
 <!-- MarkdownTOC depth=4 -->
 
 
--  [Paper Reviews](#paper-reviews)
--  [Book Reviews](#book-reviews)
+-  [Paper_reviews](#paper_reviews)
+    -  [Linear Algebra](#linear-algebra)
 -  [Tutorials](#tutorials)
-    - [Linear Algebra](#tutorials-linear-algebra)
-    - [Statistics](#tutorials-statistics)
 
 <!-- /MarkdownTOC -->
 
@@ -23,48 +19,30 @@ nav: Writing
 
 <br/>
 
-<a name="paper-reviews"></a>
 
+<br/>
+
+
+<a name="paper_reviews"></a>
 ---
-#### **Paper Reviews**
+#### **Paper_reviews**
 ---
 
 
-* [Explaining in Style: Training a GAN to explain a classifier in StyleSpace (Lang et al.)](https://chrisnielsen.github.io/paper_reviews/math-test2) 
+<a name="Linear Algebra"></a>
+**Linear Algebra**
 
 
+* [This Is a Math Test](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test)
 
-<br/><br/>
-<a name="book-reviews"></a>
-
----
-#### **Book Reviews**
+<br/>
+<br/>
 
 
-
-
-
-
-
-<br/><br/>
 <a name="tutorials"></a>
-
 ---
 #### **Tutorials**
 ---
 
 
-<a name="tutorials-linear-algebra"></a>
-**Linear Algebra**
-
-
-
-<br/>
-
-
-<a name="tutorials-statistics"></a>
-**Statistics**
-
-
-
-<br/><br/>
+* [This Is a Math Test](https://chrisnielsen.github.io/tutorials//this-is-a-math-test)

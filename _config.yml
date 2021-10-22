@@ -67,6 +67,15 @@ collections:
   paper_reviews:
     output: true
     permalink: /paper_reviews/:path/
+  book_reviews:
+    output: true
+    permalink: /book_reviews/:path/
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+  miscellaneous:
+    output: true
+    permalink: /miscellaneous/:path/
   music:
     output: true
     permalink: /music/:path/
