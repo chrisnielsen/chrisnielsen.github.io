@@ -22,6 +22,8 @@ The purpose of this project was to build a personal website to host my work. Aft
 
 In this document I will walk through how I set up my website and some of the nuances I learned. Before diving in, I first want to thank the people whose incredible work I have built on top of, especially [otiliastr](https://github.com/otiliastr/otiliastr.github.io) whose website provided a template for my own.   
 
+The repository for my website is located [here](https://github.com/chrisnielsen/chrisnielsen.github.io) and the repository for the utility code written to convert the MS Word documents into Markdown web pages is located [here](https://github.com/chrisnielsen-utilities/word2markdown) 
+
 <a name="github-pages-website"></a>
 
 <br />
