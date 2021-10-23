@@ -50,7 +50,7 @@ address: <a href="https://www.google.com/maps/place/University+of+Calgary/@51.07
   {% for item in news limit: site.news_limit %}
     <div class="row p-0">
       <div class="col-sm-2 p-0">
-        <span class="badge light-green darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
           {{ item.date | date: "%b %-d, %Y" }}
         </span>
       </div>
