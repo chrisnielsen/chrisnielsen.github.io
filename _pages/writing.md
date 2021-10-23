@@ -11,11 +11,11 @@ nav: Writing
 <!-- MarkdownTOC depth=4 -->
 
 
--  [Paper_reviews](#paper_reviews)
-    -  [Linear Algebra](#linear-algebra)
-    -  [Linear Algebra - Copy](#linear-algebra---copy)
-    -  [Linear Algebra - Copy (2)](#linear-algebra---copy-(2))
--  [Tutorials](#tutorials)
+-  [**Paper_reviews**](#paper_reviews)
+    -  [**Linear Algebra**](#linear-algebra)
+    -  [**Linear Algebra - Copy**](#linear-algebra---copy)
+    -  [**Linear Algebra - Copy (2)**](#linear-algebra---copy-(2))
+-  [**Tutorials**](#tutorials)
 
 <!-- /MarkdownTOC -->
 
@@ -37,9 +37,9 @@ nav: Writing
 **Linear Algebra**
 
 
-* [This Is a Math Test - Copy (2)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(2))
-* [This Is a Math Test - Copy (3)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(3))
-* [This Is a Math Test - Copy (4)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(4))
+* [**This Is a Math Test - Copy (2)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(2))
+* [**This Is a Math Test - Copy (3)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(3))
+* [**This Is a Math Test - Copy (4)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(4))
 * [This Is a Math Test - Copy](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy)
 * [This Is a Math Test](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test)
 
