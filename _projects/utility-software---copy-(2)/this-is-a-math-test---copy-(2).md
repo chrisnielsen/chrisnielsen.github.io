@@ -1,12 +1,13 @@
 ---
 layout: page
-title: This Is a Math Test - Copy
-permalink: /paper_reviews/linear-algebra/this-is-a-math-test---copy/
+title: This Is a Math Test - Copy (2)
+permalink: /projects/utility-software---copy-(2)/this-is-a-math-test---copy-(2)/
 ---
 <br />
 <!-- MarkdownTOC depth=4 -->
 
 
+-  [Open Questions](#open-questions)
     -  [Interpretation of min/max operations](#interpretation-of-min/max-operations)
         -  [What can we do to fix this](#what-can-we-do-to-fix-this)
         -  [Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ ](#here-is-a-proof-that-for-any-function$$f\left(-{x,y}-\right)$$we-have-$$\mathop-{\max-}\limits_y-\mathop-{\min-}\limits_x-f\left(-{x,y}-\right)-\le-\mathop-{\min-}\limits_x-\mathop-{\max-}\limits_y-f\left(-{x,y}-\right)$$-)
@@ -18,6 +19,15 @@ permalink: /paper_reviews/linear-algebra/this-is-a-math-test---copy/
 <br/>
 
 {% raw %}
+
+
+<a name="open-questions"></a>
+
+<br />
+
+---
+## Open Questions
+---
 
 This section contains discussion around open questions I have
 
@@ -122,7 +132,7 @@ This section contains general knowledge and tricks about different things that a
 
 There are a number of python functions that can be used to sample from a multivariate Gaussian. One technique is to sample from a standard Gaussian (i.e. zero mean, identity covariance), and then transform the sample such that it resembles being sampled from a Gaussian with mean m and covariance S. This can be achieved as follows (taken from "Gaussian Processes for Machine Learning slide 9")
 
-<figure><center><img src="/output/assets/img/paper_reviews/linear-algebra/this-is-a-math-test---copy/image1.png" alt="Figure 1. Cholesky Algorithm" width="500"/> <figcaption> <em>Figure 1. Cholesky Algorithm </em> </figcaption> </center></figure>
+<figure><center><img src="/output/assets/img/projects/utility-software---copy-(2)/this-is-a-math-test---copy-(2)/image1.png" alt="Figure 1. Cholesky Algorithm" width="500"/> <figcaption> <em>Figure 1. Cholesky Algorithm </em> </figcaption> </center></figure>
  
 
 This is the way it needs to be.

@@ -37,9 +37,9 @@ nav: Writing
 **Linear Algebra**
 
 
-* [**This Is a Math Test - Copy (2)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(2))
-* [**This Is a Math Test - Copy (3)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(3))
-* [**This Is a Math Test - Copy (4)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(4))
+* [This Is a Math Test - Copy (2)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(2))
+* [This Is a Math Test - Copy (3)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(3))
+* [This Is a Math Test - Copy (4)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(4))
 * [This Is a Math Test - Copy](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy)
 * [This Is a Math Test](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test)
 

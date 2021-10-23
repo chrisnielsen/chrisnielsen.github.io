@@ -7,7 +7,6 @@ permalink: /paper_reviews/linear-algebra---copy/this-is-a-math-test/
 <!-- MarkdownTOC depth=4 -->
 
 
--  [Open Questions](#open-questions)
     -  [Interpretation of min/max operations](#interpretation-of-min/max-operations)
         -  [What can we do to fix this](#what-can-we-do-to-fix-this)
         -  [Here is a proof that for any function$$f\left( {x,y} \right)$$we have $$\mathop {\max }\limits_y \mathop {\min }\limits_x f\left( {x,y} \right) \le \mathop {\min }\limits_x \mathop {\max }\limits_y f\left( {x,y} \right)$$ ](#here-is-a-proof-that-for-any-function$$f\left(-{x,y}-\right)$$we-have-$$\mathop-{\max-}\limits_y-\mathop-{\min-}\limits_x-f\left(-{x,y}-\right)-\le-\mathop-{\min-}\limits_x-\mathop-{\max-}\limits_y-f\left(-{x,y}-\right)$$-)
@@ -19,13 +18,6 @@ permalink: /paper_reviews/linear-algebra---copy/this-is-a-math-test/
 <br/>
 
 {% raw %}
-<a name="open-questions"></a>
-
-<br />
-
----
-## Open Questions
----
 
 This section contains discussion around open questions I have
 
