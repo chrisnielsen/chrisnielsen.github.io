@@ -55,7 +55,7 @@ Another important detail is that the path to each page is defined by a unique pe
 
 Most of my writing is performed in MS Word using MathType for equation editing. Therefore, to accelerate the process of getting these written documents onto website, it is important to have an efficient system of converting the MS Word documents into Markdown files that could be rendered on the website. To achieve this goal, I built a Python utility that could perform this conversion process. The repository located [here](https://github.com/chrisnielsen-utilities/word2markdown) contains the Python notebook to perform the processing. See the repository `README.md` file for more details.
 
-My general workflow when using this utility consists of the following (**IMPORTANT - remember to specify `src` branch before running script**):
+My general workflow when using this utility consists of the following (**IMPORTANT: remember to specify `src` branch before running script**):
 1. When I am ready to publish a `.docx` document on the website, I copy it over to the appropriate subfolder in the `input` path specified in the `process_documents.ipynb` notebook.
 2. Ensure that the copied document meets all the formatting rules specified in the `word2markdown` README.md located [here](https://github.com/chrisnielsen-utilities/word2markdown/blob/main/README.md)
 3. Run the `process_documents.ipynb` Python notebook ensuring that the correct website repository path is specified
