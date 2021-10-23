@@ -7,8 +7,11 @@ permalink: /projects/utility-software/personal-website-built-using-github-pages-
 <!-- MarkdownTOC depth=4 -->
 
 
+**Table of Contents**
+---
 -  [GitHub Pages Website](#github-pages-website)
 -  [Building Markdown Web Pages from MS Word Documents](#building-markdown-web-pages-from-ms-word-documents)
+---
 <!-- /MarkdownTOC -->
 
 
