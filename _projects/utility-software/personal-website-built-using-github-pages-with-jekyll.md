@@ -30,7 +30,7 @@ In this document I will walk through how I set up my website and some of the nua
 ## GitHub Pages Website
 ---
 
-My website was built for GitHub Pages using Jekyll. [Jekyll](https://github.com/jekyll/jekyll) is a static site generator that is written in Ruby. Many different Jekyll themes have been developed, each providing a unique stylistic website template.  See [here]() for a large list of available themes. Specifically, the theme that I chose for my website was based upon the [al-folio](https://github.com/alshedivat/al-folio) template, which was designed as a theme for academics to host their content. This theme has been used for personal websites as well as websites for labs, courses, and conferences. The `al-folio` repository has been forked many times and adapted for specific use cases. The exact theme for my website was forked from [here](https://github.com/otiliastr/otiliastr.github.io). 
+My website was built for GitHub Pages using Jekyll. [Jekyll](https://github.com/jekyll/jekyll) is a static site generator that is written in Ruby. Many different Jekyll themes have been developed, each providing a unique stylistic website template.  See [here](https://jekyllthemes.io/) for a large list of available themes. Specifically, the theme that I chose for my website was based upon the [al-folio](https://github.com/alshedivat/al-folio) template, which was designed as a theme for academics to host their content. This theme has been used for personal websites as well as websites for labs, courses, and conferences. The `al-folio` repository has been forked many times and adapted for specific use cases. The exact theme for my website was forked from [here](https://github.com/otiliastr/otiliastr.github.io). 
 
 
 It is incredibly easy to set up your own GitHub Pages website. Simply find a website template that you like, fork the repository, and rename the repository `your-GitHub-username.github.io`. Any repository that is named `your-GitHub-username.github.io` will get automatically hosted as a GitHub Pages website.
@@ -55,11 +55,11 @@ Another important detail is that the path to each page is defined by a unique pe
 
 Most of my writing is performed in MS Word using MathType for equation editing. Therefore, to accelerate the process of getting these written documents onto website, it is important to have an efficient system of converting the MS Word documents into Markdown files that could be rendered on the website. To achieve this goal, I built a Python utility that could perform this conversion process. The repository located [here](https://github.com/chrisnielsen-utilities/word2markdown) contains the Python notebook to perform the processing. See the repository `README.md` file for more details.
 
-My general workflow when using this utility consists of the following (**IMPORTANT - remember to specify `src` branch before running script):
+My general workflow when using this utility consists of the following (**IMPORTANT - remember to specify `src` branch before running script**):
 1. When I am ready to publish a `.docx` document on the website, I copy it over to the appropriate subfolder in the `input` path specified in the `process_documents.ipynb` notebook.
-2. I ensure that the copied document meets all the formatting rules specified in the `word2markdown` README.md located [here]()
-3. I run the `process_documents.ipynb` Python notebook ensuring that the correct website repository path is specified
-4. I push the code to the `src` branch and deploy the code using `./bin/deploy`
+2. Ensure that the copied document meets all the formatting rules specified in the `word2markdown` README.md located [here](https://github.com/chrisnielsen-utilities/word2markdown/blob/main/README.md)
+3. Run the `process_documents.ipynb` Python notebook ensuring that the correct website repository path is specified
+4. Push the code to the `src` branch and deploy the code using `./bin/deploy`
 
 
 
