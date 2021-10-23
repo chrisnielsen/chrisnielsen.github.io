@@ -4,19 +4,16 @@ title: Personal Website Built Using Github Pages With Jekyll
 permalink: /projects/utility-software/personal-website-built-using-github-pages-with-jekyll/
 ---
 <br />
-**Table of Contents**
----
+### **Table of Contents**
 <!-- MarkdownTOC depth=4 -->
-
-
 -  [GitHub Pages Website](#github-pages-website)
 -  [Building Markdown Web Pages from MS Word Documents](#building-markdown-web-pages-from-ms-word-documents)
 <!-- /MarkdownTOC -->
 
 
+---
 <br/>
 
----
 {% raw %}
 
 
