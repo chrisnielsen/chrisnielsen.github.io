@@ -37,11 +37,11 @@ nav: Writing
 **Linear Algebra**
 
 
-* [This Is a Math Test - Copy (2)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(2))
-* [This Is a Math Test - Copy (3)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(3))
-* [This Is a Math Test - Copy (4)](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(4))
-* [This Is a Math Test - Copy](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy)
-* [This Is a Math Test](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test)
+* [**This Is a Math Test - Copy (2)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(2))
+* [**This Is a Math Test - Copy (3)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(3))
+* [**This Is a Math Test - Copy (4)**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy-(4))
+* [**This Is a Math Test - Copy**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test---copy)
+* [**This Is a Math Test**](https://chrisnielsen.github.io/paper_reviews/linear-algebra/this-is-a-math-test)
 
 <br/>
 
@@ -50,7 +50,7 @@ nav: Writing
 **Linear Algebra - Copy**
 
 
-* [This Is a Math Test](https://chrisnielsen.github.io/paper_reviews/linear-algebra---copy/this-is-a-math-test)
+* [**This Is a Math Test**](https://chrisnielsen.github.io/paper_reviews/linear-algebra---copy/this-is-a-math-test)
 
 <br/>
 
@@ -59,7 +59,7 @@ nav: Writing
 **Linear Algebra - Copy (2)**
 
 
-* [This Is a Math Test](https://chrisnielsen.github.io/paper_reviews/linear-algebra---copy-(2)/this-is-a-math-test)
+* [**This Is a Math Test**](https://chrisnielsen.github.io/paper_reviews/linear-algebra---copy-(2)/this-is-a-math-test)
 
 <br/>
 <br/>
@@ -71,7 +71,7 @@ nav: Writing
 ---
 
 
-* [This Is a Math Test - Copy (2)](https://chrisnielsen.github.io/tutorials//this-is-a-math-test---copy-(2))
-* [This Is a Math Test - Copy (3)](https://chrisnielsen.github.io/tutorials//this-is-a-math-test---copy-(3))
-* [This Is a Math Test - Copy](https://chrisnielsen.github.io/tutorials//this-is-a-math-test---copy)
-* [This Is a Math Test](https://chrisnielsen.github.io/tutorials//this-is-a-math-test)
+* [**This Is a Math Test - Copy (2)**](https://chrisnielsen.github.io/tutorials//this-is-a-math-test---copy-(2))
+* [**This Is a Math Test - Copy (3)**](https://chrisnielsen.github.io/tutorials//this-is-a-math-test---copy-(3))
+* [**This Is a Math Test - Copy**](https://chrisnielsen.github.io/tutorials//this-is-a-math-test---copy)
+* [**This Is a Math Test**](https://chrisnielsen.github.io/tutorials//this-is-a-math-test)
