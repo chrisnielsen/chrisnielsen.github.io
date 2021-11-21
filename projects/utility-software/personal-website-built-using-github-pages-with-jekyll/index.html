@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Chris Nielsen | Personal Website Built Using Github Pages With Jekyll</title>
+  <meta name="description" content="This is the personal website of Chris Nielsen">
+
+  <!-- Fonts and Icons -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="/assets/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/utility-software/personal-website-built-using-github-pages-with-jekyll/">
+</head>
+<body>
+  <!-- Header -->
+  <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
+    <div class="container-fluid p-0">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Chris</span> Nielsen</a>
+      
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li>
+          
+            
+          
+            
+              <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">
+                    Curriculum Vitae
+                    
+                  </a>
+              </li>
+            
+          
+            
+          
+            
+              <li class="nav-item ">
+                  <a class="nav-link" href="/music/">
+                    Music
+                    
+                  </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">
+                    Projects
+                    
+                  </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">
+                    Publications
+                    
+                  </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                  <a class="nav-link" href="/writing/">
+                    Writing
+                    
+                  </a>
+              </li>
+            
+          
+            
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+
+  <!-- Content -->
+  <div class="content">
+    
+  <h1>Personal Website Built Using Github Pages With Jekyll</h1>
+  <h6></h6>
+
+
+<p><br /></p>
+<h3 id="table-of-contents"><strong>Table of Contents</strong></h3>
+<!-- MarkdownTOC depth=4 -->
+<ul>
+  <li><a href="#github-pages-website">GitHub Pages Website</a></li>
+  <li><a href="#building-markdown-web-pages-from-ms-word-documents">Building Markdown Web Pages from MS Word Documents</a>
+<!-- /MarkdownTOC --></li>
+</ul>
+
+<hr />
+<p><br /></p>
+
+<p>The purpose of this project was to build a personal website to host my work. After considering several options I settled on using GitHub Pages to host the website. This choice was made for a few reasons: 1) there are amazing opensource frameworks such as Jekyll that have been developed to run on top of GitHub Pages, making development much easier, and 2) hosting a website on GitHub Pages is free.</p>
+
+<p>In this document I will walk through how I set up my website and some of the nuances I learned. Before diving in, I first want to thank the people whose incredible work I have built on top of, especially <a href="https://github.com/otiliastr/otiliastr.github.io">otiliastr</a> whose website provided a template for my own.</p>
+
+<p>The repository for my website is located <a href="https://github.com/chrisnielsen/chrisnielsen.github.io">here</a> and the repository for the utility code written to convert the MS Word documents into Markdown web pages is located <a href="https://github.com/chrisnielsen-utilities/word2markdown">here</a></p>
+
+<p><a name="github-pages-website"></a></p>
+
+<p><br /></p>
+
+<hr />
+<h2 id="github-pages-website">GitHub Pages Website</h2>
+<hr />
+
+<p>My website was built for GitHub Pages using Jekyll. <a href="https://github.com/jekyll/jekyll">Jekyll</a> is a static site generator that is written in Ruby. Many different Jekyll themes have been developed, each providing a unique stylistic website template.  See <a href="https://jekyllthemes.io/">here</a> for a large list of available themes. Specifically, the theme that I chose for my website was based upon the <a href="https://github.com/alshedivat/al-folio">al-folio</a> template, which was designed as a theme for academics to host their content. This theme has been used for personal websites as well as websites for labs, courses, and conferences. The <code class="highlighter-rouge">al-folio</code> repository has been forked many times and adapted for specific use cases. The exact theme for my website was forked from <a href="https://github.com/otiliastr/otiliastr.github.io">here</a>.</p>
+
+<p>It is incredibly easy to set up your own GitHub Pages website. Simply find a website template that you like, fork the repository, and rename the repository <code class="highlighter-rouge">your-GitHub-username.github.io</code>. Any repository that is named <code class="highlighter-rouge">your-GitHub-username.github.io</code> will get automatically hosted as a GitHub Pages website.</p>
+
+<p>For the website template that I used, there are a few details that must be understood. The first, and most important, is that any changes made to the website source content must be deployed before they will be seen on the live website. This deployment step is performed using the bash command <code class="highlighter-rouge">./bin/deploy</code>. On Windows, I ran this command using the Git Bash command line with Ruby version <code class="highlighter-rouge">2.7.4</code>.</p>
+
+<p>The deployment operation works by constructing the static website in the <code class="highlighter-rouge">master</code> branch using source material that is in the <code class="highlighter-rouge">src</code> branch. <strong>It is critical that you should only be making changes in <code class="highlighter-rouge">src</code>. During the deployment operation, the deployment script will switch the branch to <code class="highlighter-rouge">master</code>, and upon completion will switch the branch back to <code class="highlighter-rouge">src</code>. If the deployment operation fails, you will need to manually switch the branch back to <code class="highlighter-rouge">src</code>. This is very important to know so that you don’t accidently make changes to <code class="highlighter-rouge">master</code> instead of <code class="highlighter-rouge">src</code>.</strong></p>
+
+<p>Another important detail is that the path to each page is defined by a unique permalink in the page header. To add a new folder to our website (e.g. a folder containing Markdown files) we must ensure that the folder name starts with an underscore (e.g. <code class="highlighter-rouge">_tutorials</code>), and that a permalink to the folder is added in the <code class="highlighter-rouge">_config.yml</code> file as a collection. Check out the <code class="highlighter-rouge">_config.yml</code> file <a href="https://github.com/chrisnielsen/chrisnielsen.github.io/blob/src/_config.yml#:~:text=collections%3A,news%3A">here</a> for examples of this.</p>
+
+<p><a name="building-markdown-web-pages-from-ms-word-documents"></a></p>
+
+<p><br /></p>
+
+<hr />
+<h2 id="building-markdown-web-pages-from-ms-word-documents">Building Markdown Web Pages from MS Word Documents</h2>
+<hr />
+
+<p>Most of my writing is performed in MS Word using MathType for equation editing. Therefore, to accelerate the process of getting these written documents onto website, it is important to have an efficient system of converting the MS Word documents into Markdown files that could be rendered on the website. To achieve this goal, I built a Python utility that could perform this conversion process. The repository located <a href="https://github.com/chrisnielsen-utilities/word2markdown">here</a> contains the Python notebook to perform the processing. See the repository <code class="highlighter-rouge">README.md</code> file for more details.</p>
+
+<p>My general workflow when using this utility consists of the following (<strong>IMPORTANT: remember to specify <code class="highlighter-rouge">src</code> branch before running script</strong>):</p>
+<ol>
+  <li>When I am ready to publish a <code class="highlighter-rouge">.docx</code> document on the website, I copy it over to the appropriate subfolder in the <code class="highlighter-rouge">input</code> path specified in the <code class="highlighter-rouge">process_documents.ipynb</code> notebook.</li>
+  <li>Ensure that the copied document meets all the formatting rules specified in the <code class="highlighter-rouge">word2markdown</code> README.md located <a href="https://github.com/chrisnielsen-utilities/word2markdown/blob/main/README.md">here</a></li>
+  <li>Run the <code class="highlighter-rouge">process_documents.ipynb</code> Python notebook ensuring that the correct website repository path is specified</li>
+  <li>Push the code to the <code class="highlighter-rouge">src</code> branch and deploy the code using <code class="highlighter-rouge">./bin/deploy</code></li>
+</ol>
+
+
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; Copyright 2021 Chris Nielsen.
+    
+    
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/assets/js/popper.min.js" type="text/javascript"></script>
+  <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/assets/js/mdb.min.js" type="text/javascript"></script>
+  <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
+  <script src="/assets/js/common.js"></script>
+
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      var progressBar = $('#progress');
+      progressBar.css({ 'top': navbarHeight });
+      var getMax = function() { return $(document).height() - $(window).height(); }
+      var getValue = function() { return $(window).scrollTop(); }   
+      // Check if the browser supports the progress element.
+      if ('max' in document.createElement('progress')) {
+        // Set the 'max' attribute for the first time.
+        progressBar.attr({ max: getMax() });
+        progressBar.attr({ value: getValue() });
+    
+        $(document).on('scroll', function() {
+          // On scroll only the 'value' attribute needs to be calculated.
+          progressBar.attr({ value: getValue() });
+        });
+
+        $(window).resize(function() {
+          var navbarHeight = $('#navbar').outerHeight(true);
+          $('body').css({ 'padding-top': navbarHeight });
+          $('progress-container').css({ 'padding-top': navbarHeight });
+          progressBar.css({ 'top': navbarHeight });
+          // On resize, both the 'max' and 'value' attributes need to be calculated.
+          progressBar.attr({ max: getMax(), value: getValue() });
+        });
+      } else {
+        var max = getMax(), value, width;
+        var getWidth = function() {
+          // Calculate the window width as a percentage.
+          value = getValue();
+          width = (value/max) * 100;
+          width = width + '%';
+          return width;
+        }
+        var setWidth = function() { progressBar.css({ width: getWidth() }); };
+        setWidth();
+        $(document).on('scroll', setWidth);
+        $(window).on('resize', function() {
+          // Need to reset the 'max' attribute.
+          max = getMax();
+          setWidth();
+        });
+      }
+    });
+  </script>
+
+  <!-- Code Syntax Highlighting -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <script src="/assets/js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <!-- Script Used for Randomizing the Projects Order -->
+  <!-- <script type="text/javascript">
+    $.fn.shuffleChildren = function() {
+      $.each(this.get(), function(index, el) {
+        var $el = $(el);
+        var $find = $el.children();
+
+        $find.sort(function() {
+          return 0.5 - Math.random();
+        });
+
+        $el.empty();
+        $find.appendTo($el);
+      });
+    };
+    $("#projects").shuffleChildren();
+  </script> -->
+
+  <!-- Project Cards Layout -->
+  <script type="text/javascript">
+    var $grid = $('#projects');
+
+    // $grid.masonry({ percentPosition: true });
+    // $grid.masonry('layout');
+
+    // Trigger after images load.
+    $grid.imagesLoaded().progress(function() {
+      $grid.masonry({ percentPosition: true });
+      $grid.masonry('layout');
+    });
+  </script>
+
+  <!-- Enable Tooltips -->
+  <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
